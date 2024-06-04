@@ -89,13 +89,21 @@
 
     /* Main Content */
     main {
-        background-color: lightblue;
+        
         /* Make main element take up any surplus space to push footer down */
         flex: 1 0 auto;
-        margin-top: 47px;
+        margin-top: 40px;
     }
 
+    /* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
+}
+    
     /* Footer */
+
     #social-networks {
         text-align: center;
         padding: 20px 0;
